@@ -15,6 +15,6 @@ export default function robots(): MetadataRoute.Robots {
         ],
       },
     ],
-    sitemap: "https://cafino.site/sitemap.xml",
+    sitemap: "https://www.cafinocomplex.ir/sitemap.xml",
   };
 }

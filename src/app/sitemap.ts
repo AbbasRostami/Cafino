@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const siteUrl = "https://cafino.site";
+  const siteUrl = "https://www.cafinocomplex.ir";
 
   return [
     {

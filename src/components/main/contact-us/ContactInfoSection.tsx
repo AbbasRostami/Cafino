@@ -19,9 +19,9 @@ export const ContactInfoSection = () => {
     {
       icon: Mailbox,
       title: "ایمیل",
-      description: "info@cafino.com",
+      description: "info@cafinocomplex.ir",
       color: "text-purple-700 dark:text-purple-300",
-      href: "mailto:info@cafino.com",
+      href: "mailto:info@cafinocomplex.ir",
     },
     {
       icon: MapPin,

@@ -1,6 +1,6 @@
 import Script from "next/script";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://cafino.site";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.cafinocomplex.ir";
 const siteName = "کافینو";
 const siteDescription =
   "کافه و رستوران کافینو - بهترین تجربه طعم و مزه با منوی متنوع نوشیدنی‌ها، غذاها و دسرهای خوشمزه";

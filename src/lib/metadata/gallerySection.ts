@@ -3,7 +3,7 @@ export const gallerySectionStructuredData = {
   "@type": "ImageGallery",
   name: "گالری تصاویر کافینو",
   description: "گالری تصاویر فضای داخلی و بیرونی کافه کافینو با طراحی مدرن",
-  url: "https://cafino.site",
+  url: "https://www.cafinocomplex.ir",
   mainEntity: {
     "@type": "Restaurant",
     name: "کافینو",

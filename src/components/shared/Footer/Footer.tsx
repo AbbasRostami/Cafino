@@ -1,11 +1,4 @@
-import FooterBrand from "../../main/Footer/FooterBrand";
-import WorkingHours from "../../main/Footer/WorkingHours";
-import QuickLinks from "../../main/Footer/QuickLinks";
-import ContactInfo from "../../main/Footer/ContactInfo";
-import FooterBottom from "../../main/Footer/FooterBottom";
-import FooterBackground from "../../main/Footer/FooterBackground";
 import { footerStructuredData } from "@/lib/metadata/footer";
-import Script from "next/script";
 import {
   Clock,
   Grid2X2,
@@ -19,6 +12,13 @@ import {
   Send,
   Youtube,
 } from "lucide-react";
+import Script from "next/script";
+import ContactInfo from "../../main/Footer/ContactInfo";
+import FooterBackground from "../../main/Footer/FooterBackground";
+import FooterBottom from "../../main/Footer/FooterBottom";
+import FooterBrand from "../../main/Footer/FooterBrand";
+import QuickLinks from "../../main/Footer/QuickLinks";
+import WorkingHours from "../../main/Footer/WorkingHours";
 
 const footerData = {
   workingHours: [
@@ -37,9 +37,17 @@ const footerData = {
   ],
 
   contactInfo: [
-    { icon: MapPin, text: "گیلان، رشت، خیابان گلسار ", href: "https://maps.app.goo.gl/asc4o33GqgiHZa3E7" },
+    {
+      icon: MapPin,
+      text: "گیلان، رشت، خیابان گلسار ",
+      href: "https://maps.app.goo.gl/asc4o33GqgiHZa3E7",
+    },
     { icon: Phone, text: "۰۹۱۲۳۴۵۶۷۸۹", href: "tel:09123456789" },
-    { icon: Mail, text: "info@cafino.ir", href: "mailto:info@cafino.ir" },
+    {
+      icon: Mail,
+      text: "info@cafinocomplex.ir",
+      href: "mailto:info@cafinocomplex.ir",
+    },
     { icon: Clock, text: "همه روزه: ۸ صبح تا ۱۱ شب" },
   ],
 
